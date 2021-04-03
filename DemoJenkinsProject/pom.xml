@@ -55,11 +55,11 @@
 						<version>2.18.1</version>
 						<configuration>
 							<systemPropertyVariables>
-								<username>${Dusername}</username>
-								<password>${Dpassword}</password>
+								<username>%Dusername%</username>
+								<password>%Dpassword%</password>
 							</systemPropertyVariables>
 							<suiteXmlFiles>
-								<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+								<suiteXmlFile>%suiteXmlFile%</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
